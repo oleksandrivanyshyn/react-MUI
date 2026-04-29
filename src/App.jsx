@@ -62,12 +62,21 @@ import {
   SnackbarFunctionality,
   SnackbarCustomization,
 } from './components/feedback';
-
+import {
+  AccordionFunctionality,
+  AccordionCustomization,
+  AppBarFunctionality,
+  AppBarCustomization,
+  CardFunctionality,
+  CardCustomization,
+  PaperFunctionality,
+  PaperCustomization,
+} from './components/surfaces';
 export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <SnackbarCustomization />
+      <PaperCustomization />
     </>
   );
 }
