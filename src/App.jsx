@@ -31,7 +31,7 @@ export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <SelectCustomization />
+      <SwitchCustomization />
     </>
   );
 }
