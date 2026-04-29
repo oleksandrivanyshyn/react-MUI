@@ -72,11 +72,31 @@ import {
   PaperFunctionality,
   PaperCustomization,
 } from './components/surfaces';
+import {
+  BottomNavigationFunctionality,
+  BottomNavigationCustomization,
+  BreadcrumbsFunctionality,
+  BreadcrumbsCustomization,
+  DrawerFunctionality,
+  DrawerCustomization,
+  LinkFunctionality,
+  LinkCustomization,
+  MenuFunctionality,
+  MenuCustomization,
+  PaginationFunctionality,
+  PaginationCustomization,
+  SpeedDialFunctionality,
+  SpeedDialCustomization,
+  StepperFunctionality,
+  StepperCustomization,
+  TabsFunctionality,
+  TabsCustomization,
+} from './components/navigation';
 export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <PaperCustomization />
+      <TabsCustomization />
     </>
   );
 }
