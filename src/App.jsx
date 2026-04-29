@@ -48,12 +48,26 @@ import {
   TypographyFunctionality,
   TypographyCustomization,
 } from './components/data_display';
+import {
+  AlertFunctionality,
+  AlertCustomization,
+  BackdropFunctionality,
+  BackdropCustomization,
+  DialogFunctionality,
+  DialogCustomization,
+  ProgressFunctionality,
+  ProgressCustomization,
+  SkeletonFunctionality,
+  SkeletonCustomization,
+  SnackbarFunctionality,
+  SnackbarCustomization,
+} from './components/feedback';
 
 export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <TypographyCustomization />
+      <SnackbarCustomization />
     </>
   );
 }
