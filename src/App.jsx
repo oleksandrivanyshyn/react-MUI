@@ -92,11 +92,24 @@ import {
   TabsFunctionality,
   TabsCustomization,
 } from './components/navigation';
+import {
+  BoxFunctionality,
+  BoxCustomization,
+  ContainerFunctionality,
+  ContainerCustomization,
+  GridFunctionality,
+  GridDemo,
+  GridCustomization,
+  ImageListFunctionality,
+  ImageListCustomization,
+  StackFunctionality,
+  StackCustomization,
+} from './components/layout';
 export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <TabsCustomization />
+      <StackCustomization />
     </>
   );
 }
