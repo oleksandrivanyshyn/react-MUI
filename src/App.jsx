@@ -105,11 +105,25 @@ import {
   StackFunctionality,
   StackCustomization,
 } from './components/layout';
+import {
+  ClickAwayListenerFunctionality,
+  CssBaselineFunctionality,
+  CssBaselineCustomization,
+  ModalFunctionality,
+  ModalCustomization,
+  NoSsrFunctionality,
+  PopperFunctionality,
+  PortalFunctionality,
+  TextareaAutosizeFunctionality,
+  TransitionsFunctionality,
+  useMediaQueryFunctionality,
+  useScrollTriggerFunctionality,
+} from './components/utils';
 export default function App() {
   return (
     <>
       <h1>Welcome to Mastering MUI: Component Customization</h1>
-      <StackCustomization />
+      <useScrollTriggerFunctionality />
     </>
   );
 }
